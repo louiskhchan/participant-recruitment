@@ -1,12 +1,30 @@
 # Participant recruitment and appointment website
 
+Visual attention research frequently involves recruiting research participants to come to the lab for one or half an hour experiment sessions. The standard way of participant recruitment is to stick posters around the campus every time you run a new experiment. Then, participants call you and make appointments. This can be tedious.
 
-Conducting psychological research in visual attention frequently involves recruiting research participants and asking them to come to our lab for one or half an hour of experiment sessions. The usual way of recruiting participants, especially 10+ years ago when I was doing my post-doc, is to stick posters everywhere every time you run a new experiment and get participants to call you and make an appointment.
+During my post-doc, I developed a website in [PHP](https://www.php.net/) and [SQLite](https://www.sqlite.org/index.html) to handle participant recruitment and appointment. Very soon, this website was known by my nearby labs. I then called it the <ins>[participant website for the vision laboratories](http://cha.psy.hku.hk/participate/)</ins> at HKU. It was in use until COVID-19, which stopped face-to-face experiments.
 
-To simplify this process, I wrote a website in PHP to get student participants to register an account on our online system and input their emails there. Every time I run a new experiment, I can send a mass email to potential participants through the system. The system automatically cycles through the participants and allows us to specify how many emails to reach. Then, I only need to recruit participants to my system once every year.
+You can see the website and screenshots of the experimenter's view below. With the participant website, we only need to recruit participants once yearly (instead of once every experiment). The student participants will register an account on our online system and input their emails. Every time we run a new experiment, the experimenter can send a mass email to potential participants through the system. The system automatically cycles through the participants and allows us to specify how many emails to reach. Since we do cross-cultural face recognition research, the system also allows us to target a specific gender or race.
 
-When the potential participants receive the notification, they can see the experiment timeslots and details like how long a specific experiment is and the monetary reward associated with it. If they are interested in participating, they register online.
+<details>
+<summary>Screenshot of the mass email page</summary>
+<img src="massmail_page.png" />
+</details>
 
-On the admin page, signed-up participants appear as a list, paged by experiment, and experimental timeslots are shown in a calendar view.
+When the potential participants receive the notification, they can see the experiment timeslots and details such as the duration and reward of the experiment session on the [website](http://cha.psy.hku.hk/participate/). If they are interested in participating, they register online.
 
-Very soon after I developed this system, it was known by my labmates and friends from my nearby cluster of labs (most of them doing visual perception research). I then called it the [participant website for the vision laboratories at HKU](http://cha.psy.hku.hk/participate/). It remained actively in use until COVID-19, which stopped all face-to-face experiments.
+In the experimenter's view, signed-up participants appear as a list, paged by experiment.
+
+<details>
+<summary>Screenshot of the experiment page</summary>
+<img src="expt_page.png" />
+</details>
+
+Another page shows the lab's calendar, where experimental timeslots are shown in a calendar view, colour-coded by experiment ID, with quick details such as the experimenter's ID and location.
+
+<details>
+<summary>Screenshot of the calendar view</summary>
+<img src="calendar_page.png" />
+</details>
+
+[code](source)

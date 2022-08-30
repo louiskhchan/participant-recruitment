@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Please enter admin PW"
+AuthUserFile C:/VisCog/LabWebsite/.viscogpw
+Require user viscog
