@@ -8,7 +8,7 @@ You can see the website and screenshots of the experimenter's view below. With t
 
 <details>
 <summary>Screenshot of the mass email page</summary>
-<img src="massmail_page.png" />
+<img src="img/massmail_page.png" />
 </details>
 
 When the potential participants receive the notification, they can see the experiment timeslots and details such as the duration and reward of the experiment session on the [website](http://cha.psy.hku.hk/participate/). If they are interested in participating, they register online.
@@ -17,14 +17,14 @@ In the experimenter's view, signed-up participants appear as a list, paged by ex
 
 <details>
 <summary>Screenshot of the experiment page</summary>
-<img src="expt_page.png" />
+<img src="img/expt_page.png" />
 </details>
 
 Another page shows the lab's calendar, where experimental timeslots are shown in a calendar view, colour-coded by experiment ID, with quick details such as the experimenter's ID and location.
 
 <details>
 <summary>Screenshot of the calendar view</summary>
-<img src="calendar_page.png" />
+<img src="img/calendar_page.png" />
 </details>
 
 [code](source)
