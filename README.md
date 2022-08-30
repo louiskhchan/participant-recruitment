@@ -27,4 +27,4 @@ Another page shows the lab's calendar, where experimental timeslots are shown in
 <img src="img/calendar_page.png" />
 </details>
 
-[code](source)
+[[source code]](source)
